@@ -8,7 +8,7 @@ Construyo aplicaciones para resolver necesidades concretas y trabajo con datos p
 
 | Proyecto | Enfoque | Tecnologías | Acceso y estado |
 | --- | --- | --- | --- |
-| **Gestión de Flota — tesis de grado** | Sistema web con usuarios, roles, áreas, viajes, reclamos y reportes. Frontend y API separados. | React · Node.js · Express · MySQL · Sequelize | Código privado · sin demo verificada |
+| **Gestión de Flota — tesis de grado** | Gestión operativa con roles y áreas, inicio/cierre de viajes, reclamos y gráficos. Frontend y API separados. | React · Node.js · Express · MySQL · Sequelize | Código privado · sin demo verificada |
 | **Recetario** | Recomendaciones según ingredientes, tiempo y preferencias; recetas propias, historial y valoraciones. | Next.js · React · TypeScript · Supabase | Código privado · demo en revisión |
 | **Pareja Finanzas** | Aplicación personal con movimientos privados, fondo común, cuentas y gastos recurrentes. | Next.js · React · TypeScript · Supabase · PostgreSQL | Código privado · deploy sin verificar |
 | **Fútbol App** | Prototipo con autenticación e interfaz de ranking; el ranking aún usa datos de ejemplo. | Vue.js · Vuetify · FastAPI · Python · SQLAlchemy | Código privado · prototipo |
@@ -16,6 +16,19 @@ Construyo aplicaciones para resolver necesidades concretas y trabajo con datos p
 | **[Análisis de e-commerce](https://github.com/FachitaPyrnal/Proyecto-Analisis-de-Datos)** | Exploración y transformación de tablas de comercio electrónico. Proyecto de formación. | Python · Pandas · Jupyter · Excel | Notebook y Excel · sin demo web |
 
 Los proyectos privados se describen a nivel técnico. Sus repositorios y datos de uso no forman parte del material público.
+
+## Gestión de Flota · tesis de grado
+
+Desarrollé una aplicación web académica para centralizar la actividad de conductores y coordinar tareas entre administración, gerencia y conducción.
+
+- **Usuarios y responsabilidades:** asignación de roles y áreas.
+- **Viajes:** inicio, cierre, duración e historial con vistas por rol y área.
+- **Reclamos:** asignación, edición, estados y comentarios de seguimiento.
+- **Informes:** gráficos de reclamos por estado y conductor, con filtros en los informes correspondientes.
+
+La solución separa una interfaz **React, Material UI y Chart.js**, una **API Express** y la persistencia con **Sequelize y MySQL**. El trabajo incluye análisis de requerimientos y documentación del sistema.
+
+**Alcance:** proyecto académico con código privado y sin demo pública verificada. El mapa utiliza posiciones simuladas; no se presenta como GPS real ni optimización de rutas. Las alertas tienen integración pendiente. La adaptación a React Native quedó como una exploración incompleta. La descripción se contrastó con documentación y código; no implica una validación actual de extremo a extremo.
 
 ## Prácticas académicas
 
