@@ -1,45 +1,86 @@
 # Iván Szpyrnal
 
-**Negocios y Sistemas · Desarrollo web y análisis de datos**
+**Desarrollo web full-stack · Análisis de datos · Negocios y Sistemas**
 
-Construyo aplicaciones para resolver necesidades concretas y trabajo con datos para responder preguntas útiles. Mi formación en Negocios y Sistemas conecta el diseño de la solución con el problema que busca resolver.
+Desarrollo aplicaciones y soluciones orientadas a problemas concretos: desde el relevamiento de requerimientos y el modelado de datos hasta interfaces, APIs, automatización y análisis. Este perfil reúne proyectos personales y académicos; los proyectos laborales confidenciales no se publican.
 
-## Proyectos principales
+## Proyectos destacados
 
-| Proyecto | Enfoque | Tecnologías | Acceso y estado |
-| --- | --- | --- | --- |
-| **Gestión de Flota — tesis de grado** | Gestión operativa con roles y áreas, inicio/cierre de viajes, reclamos y gráficos. Frontend y API separados. | React · Node.js · Express · MySQL · Sequelize | Código privado · sin demo verificada |
-| **Recetario** | Recomendaciones según ingredientes, tiempo y preferencias; recetas propias, historial y valoraciones. | Next.js · React · TypeScript · Supabase | Código privado · demo en revisión |
-| **Pareja Finanzas** | Aplicación personal con movimientos privados, fondo común, cuentas y gastos recurrentes. | Next.js · React · TypeScript · Supabase · PostgreSQL | Código privado · deploy sin verificar |
-| **Fútbol App** | Prototipo con autenticación e interfaz de ranking; el ranking aún usa datos de ejemplo. | Vue.js · Vuetify · FastAPI · Python · SQLAlchemy | Código privado · prototipo |
-| **[De sobremesa](https://github.com/FachitaPyrnal/de-sobremesa)** | Exploración de recetas, detalles y favoritas en el navegador. Proyecto académico. | Angular · TypeScript · RxJS · API REST | [Demo disponible](https://fachitapyrnal.github.io/de-sobremesa/) |
-| **[Análisis de e-commerce](https://github.com/FachitaPyrnal/Proyecto-Analisis-de-Datos)** | Exploración y transformación de tablas de comercio electrónico. Proyecto de formación. | Python · Pandas · Jupyter · Excel | Notebook y Excel · sin demo web |
+### Gestión de Flota — tesis de grado
 
-Los proyectos privados se describen a nivel técnico. Sus repositorios y datos de uso no forman parte del material público.
+**React · Material UI · Express · Sequelize · MySQL**
 
-## Gestión de Flota · tesis de grado
+Aplicación académica para gestionar usuarios por rol y área, viajes, reclamos y reportes. El frontend y la API viven en repositorios privados. El mapa del proyecto trabaja con posiciones **simuladas**, no seguimiento GPS real.
 
-Desarrollé una aplicación web académica para centralizar la actividad de conductores y coordinar tareas entre administración, gerencia y conducción.
+**[Ver caso de estudio: problema, arquitectura, funcionalidades y limitaciones](./proyectos/gestion-de-flota.md)**
 
-- **Usuarios y responsabilidades:** asignación de roles y áreas.
-- **Viajes:** inicio, cierre, duración e historial con vistas por rol y área.
-- **Reclamos:** asignación, edición, estados y comentarios de seguimiento.
-- **Informes:** gráficos de reclamos por estado y conductor, con filtros en los informes correspondientes.
+*Estado:* código y documentación revisados · **sin demo ejecutada/verificada**.
 
-La solución separa una interfaz **React, Material UI y Chart.js**, una **API Express** y la persistencia con **Sequelize y MySQL**. El trabajo incluye análisis de requerimientos y documentación del sistema.
+### Recetario — aplicación full-stack
 
-**Alcance:** proyecto académico con código privado y sin demo pública verificada. El mapa utiliza posiciones simuladas; no se presenta como GPS real ni optimización de rutas. Las alertas tienen integración pendiente. La adaptación a React Native quedó como una exploración incompleta. La descripción se contrastó con documentación y código; no implica una validación actual de extremo a extremo.
+**Next.js · React · TypeScript · Supabase · PostgreSQL**
 
-## Prácticas académicas
+App para decidir qué cocinar según ingredientes, tiempo y preferencias. Incluye búsqueda/recomendación, recetas e historial, con autenticación y persistencia. El repositorio contiene pruebas y una guía de despliegue.
 
-- **Laboratorio Angular:** [formulario reactivo y validaciones](https://github.com/FachitaPyrnal/tarea2-Szpyrnal), [inventario simulado con servicios y pipes](https://github.com/FachitaPyrnal/tarea3-Szpyrnal) y [primera aplicación](https://github.com/FachitaPyrnal/mi-primer-app-Szpyrnal). Código público, sin demo verificada.
-- **Simulación Monte Carlo:** generación de muestras desde una distribución discreta, frecuencias y cálculo de estadísticos en Python con Pandas y NumPy. Trabajo de Modelos y Simulación; código privado.
+*Estado:* código privado · **demo pública no verificada**. No se publica una URL hasta comprobar el despliegue y su configuración de privacidad.
 
-## Herramientas
+### De sobremesa — aplicación Angular
 
-- **Interfaces:** React, Next.js, Angular, Vue.js, TypeScript y CSS.
-- **Backend y persistencia:** Node.js, Express, FastAPI, SQL, MySQL, PostgreSQL y Supabase.
-- **Análisis:** Python, Pandas, NumPy, Jupyter y Excel.
-- **Trabajo con código:** Git y APIs REST.
+**Angular · TypeScript · RxJS · API REST**
+
+Recetario académico con búsqueda, filtros, detalle de recetas y favoritos almacenados en el navegador. Consume la API pública TheMealDB.
+
+**[Abrir demo de GitHub Pages](https://fachitapyrnal.github.io/de-sobremesa/)** · **[Ver código y pruebas](https://github.com/FachitaPyrnal/de-sobremesa)**
+
+*Estado:* **workflow de build, pruebas y publicación exitoso el 16/10/2026**. La navegación de la web no fue verificada nuevamente desde este perfil; el estado del workflow no garantiza disponibilidad continua.
+
+### Pareja Finanzas — aplicación privada
+
+**Next.js · React · TypeScript · Supabase**
+
+Proyecto para registrar movimientos personales y gastos compartidos, con privacidad por usuario y reglas de aportes.
+
+*Estado:* repositorio privado · sin demo pública verificada. Una futura muestra deberá utilizar cuentas y movimientos ficticios.
+
+### Fútbol App — prototipo
+
+**Vue.js · Vuetify · FastAPI · Python · SQLAlchemy**
+
+Prototipo con autenticación, interfaz deportiva y ranking de jugadores. Algunas visualizaciones emplean datos de ejemplo; las funciones planificadas no se presentan como implementadas.
+
+*Estado:* repositorio privado · prototipo, sin demo pública verificada.
+
+### Análisis de e-commerce — proyecto de datos
+
+**Python · Pandas · Jupyter · Excel**
+
+Exploración, limpieza y unión de tablas de pedidos, productos, clientes y pagos, con agrupaciones y exportación de resultados.
+
+**[Ver notebook y documentación de análisis](https://github.com/FachitaPyrnal/Proyecto-Analisis-de-Datos)**
+
+*Estado:* código y libro Excel públicos · sin demo web. Los CSV originales no están versionados, por lo que la reproducción integral necesita esos archivos.
+
+## Otros ejercicios y trabajos
+
+- **Laboratorio Angular:** [formularios y validaciones](https://github.com/FachitaPyrnal/tarea2-Szpyrnal) · [servicios y pipes](https://github.com/FachitaPyrnal/tarea3-Szpyrnal) · [primera aplicación](https://github.com/FachitaPyrnal/mi-primer-app-Szpyrnal). Código público, demos no verificadas.
+- **Simulación Monte Carlo:** generación de muestras de una distribución discreta, frecuencias y estadísticos con Python, Pandas y NumPy. Trabajo académico de código privado.
+
+## Tecnologías
+
+**Frontend:** React, Next.js, Angular, Vue, TypeScript, CSS
+
+**Backend y datos:** Node.js, Express, FastAPI, SQL, MySQL, PostgreSQL, Supabase
+
+**Análisis:** Python, Pandas, NumPy, Jupyter, Excel
+
+**Herramientas:** Git, APIs REST
+
+---
+
+### Cómo leer los estados
+
+- **Demo:** enlace a una aplicación web para explorar; se distingue entre despliegue registrado y navegación probada.
+- **Caso de estudio:** explicación y evidencia técnica, **no** una simulación de que la aplicación está en línea.
+- **Código privado:** se muestra únicamente una descripción técnica general, sin datos reales ni repositorios restringidos.
 
 [LinkedIn](https://www.linkedin.com/in/ivan-szpyrnal/) · [Repositorios públicos](https://github.com/FachitaPyrnal?tab=repositories)
