@@ -22,7 +22,7 @@ Aplicación académica para gestionar usuarios por rol y área, viajes, reclamos
 
 App para decidir qué cocinar según ingredientes, tiempo y preferencias. Incluye búsqueda/recomendación, recetas e historial, con autenticación y persistencia. El repositorio contiene pruebas y una guía de despliegue.
 
-*Estado:* código privado · **demo pública no verificada**. No se publica una URL hasta comprobar el despliegue y su configuración de privacidad.
+*Estado:* existe un despliegue de producción en Vercel (`READY`) y pruebas E2E previas documentadas, pero la base de datos figura inactiva al **13/11/2026**. **No se presenta como demo operativa actual**; código privado.
 
 ### De sobremesa — aplicación Angular
 
@@ -40,7 +40,7 @@ Recetario académico con búsqueda, filtros, detalle de recetas y favoritos alma
 
 Proyecto para registrar movimientos personales y gastos compartidos, con privacidad por usuario y reglas de aportes.
 
-*Estado:* repositorio privado · sin demo pública verificada. Una futura muestra deberá utilizar cuentas y movimientos ficticios.
+*Estado:* existe un despliegue de producción en Vercel (`READY`), pero la base de datos figura inactiva al **13/11/2026**. Demo no validada actualmente; código privado. Cualquier muestra deberá usar datos ficticios.
 
 ### Fútbol App — prototipo
 
@@ -48,7 +48,7 @@ Proyecto para registrar movimientos personales y gastos compartidos, con privaci
 
 Prototipo con autenticación, interfaz deportiva y ranking de jugadores. Algunas visualizaciones emplean datos de ejemplo; las funciones planificadas no se presentan como implementadas.
 
-*Estado:* repositorio privado · prototipo, sin demo pública verificada.
+*Estado:* prototipo con un despliegue histórico de producción en Vercel (`READY`). La base de datos figura inactiva al **13/11/2026** y no hay demo funcional actual verificada; código privado.
 
 ### Análisis de e-commerce — proyecto de datos
 
